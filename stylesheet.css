@@ -1,0 +1,156 @@
+/*corps de la page*/
+body{
+
+background-color: white;
+width: 1200px;
+margin: 0;
+margin: auto; }
+
+/* En-tete de la page */
+header{
+padding:20px 0;
+background-color: #333; }
+
+
+strong{
+
+font-weight: normal;
+
+}
+
+span{
+
+font-weight: normal;
+
+}
+
+
+.headertext{
+font-family: 'Quattrocento Sans', 'sans-serif', 'roboto';
+color: #FFF;
+display: flex;
+justify-content: center;
+
+font-size: 1.7rem; }
+
+/* Class d'entree contenant H1 et collection */
+.Entry{
+text-align: center;
+padding-bottom: 10px; }
+
+#titre{
+font-size: 3.9rem;
+font-weight: 100;
+font-family: 'Herr Von Muellerhoff'; }
+
+/* paragraphe collection */
+#collection{
+font-style: italic;
+margin-top: -40px;
+font-size: 13px; }
+
+/* cible tout les paragraphe */
+p{
+font-family: 'Quattrocento Sans', 'sans-serif', 'roboto'; }
+
+/* Section navigation */
+.navupper{
+width: 80%;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+margin: auto;
+margin-top: 15px; }
+
+/* hover nav upper */
+.navup1:hover{
+color: yellow; }
+
+ul{
+list-style: none;
+display: flex;
+align-items: center;
+justify-content:center;
+font-weight: 700;
+font-family: 'Oswald'; }
+
+/* nav lower */
+.border{
+border: lightgrey solid;
+border-left-width: 12px;
+border-right-width: 12px;
+background-color: lightgray;
+color: #FFF; }
+    
+.border:hover{
+border-color: yellow;
+background-color: yellow; }
+    
+#page1{
+border: solid;
+border-left-width: 12px;
+border-right-width: 12px;
+border-color: yellow;
+background-color: yellow;
+color: #FFF; }
+
+/* cible tous les liens */
+a{
+margin-right: 15px;
+text-decoration: none;
+color: black; }
+
+/* articles contant les images */
+.articles{
+width: 80%;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin: auto; }
+
+/* image + texte */
+.posts{
+width: 32%; }
+
+.img{
+width: 100%;
+margin-top: 35px; }
+
+.textp1{
+font-family: 'Oswald';
+font-weight: 600;
+margin-top: auto; }
+
+.textp2{
+font-size: 0.5rem;
+margin-top: -10px;
+font-style: italic; }
+
+.textp1:hover{
+cursor: pointer;
+opacity: 0.5; }
+    
+.textp2:hover{
+cursor:context-menu;
+opacity: 0.5; }
+
+/* pied de page */
+
+footer{
+padding:20px 0;
+background-color: #333; }
+
+#titre2{
+font-weight: 100;
+font-family: 'Herr Von Muellerhoff';
+color: #FFF;
+text-align: center;
+margin-top: -10px; 
+font-size: 2.3rem;
+
+}
+
+#copyright{
+text-align: center;
+color: #999;
+margin-top: -20px; }
+
